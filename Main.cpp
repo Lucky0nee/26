@@ -10,13 +10,14 @@ int function(int num) {
 }
 
 int main() {
-	system("chcp 1251>nul");
+	//system("chcp 1251>nul");
 	cout << "Функцiя, обчислює факторiал натурального числа\n";
 	cout << "Введiть число: ";
-	int num1;
-	cin >> num1;
-
-	cout << function(num1) << endl;
+	int num;
+	cin >> num;
+  
+	cout << "Факторiал числа " << num << " : ";
+	cout << function(num) << endl;
 }
 
 /*
